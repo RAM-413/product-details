@@ -621,7 +621,7 @@ export const Section4 = () => {
                 <div className="page-no d-flex justify-content-center align-items-center">
                   <p className="pg-text mb-0">3</p>
                 </div>
-                <button className="page-button">Next</button>
+                <button className="page-button">Next { ">>" }</button>
               </div>
             </div>
           </Row>

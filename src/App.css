@@ -63,7 +63,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  transition: all 200ms linear;
+  -moz-transition:black 300ms ease-in-out;
+  transition: all 300ms linear;
+  -webkit-transition:black 300ms ease-in-out;
+}
+
+.header-links:hover {
+  -webkit-text-stroke: 1.5px black;
 }
 
 .review {
@@ -211,7 +217,6 @@
 .S2-main-box {
   box-shadow: 23px 44px 47px 0px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  cursor: pointer;
   transition: all 300ms linear;
 }
 .S2-main-box:hover {
@@ -343,7 +348,7 @@ link.active {
 .nav-link {
   color: black !important;
   display: block;
-  margin-right: 20px !important;
+  margin-right: 70px !important;
   padding: unset !important;
   font-size: var(--fs-m) !important;
   font-family: var(--ff-pop) !important;
@@ -376,15 +381,9 @@ link.active {
   border: 1px solid rgba(0, 0, 0, 0.12);
   background: lightgray 50% / cover no-repeat, #f3f3f3;
   transition: all 300ms linear;
-  cursor: pointer;
 }
-.slider-box:hover {
-  box-shadow: 23px 44px 47px 0px rgba(0, 0, 0, 0.2);
 
-}
-.slider-box:hover svg path{
-    fill: red;
-}
+
 
 .slider-box-name {
   color: #555;
@@ -557,9 +556,6 @@ link.active {
 }
 
 
-.header-links:hover {
-  -webkit-text-stroke: 1.5px black;
-}
 
 .add:hover,
 .sub:hover {
@@ -631,7 +627,6 @@ link.active {
 .curser-pointer{
     cursor: pointer;
 }
-
 @media (max-width: 1200px) {
   label[for="menu-icon"] {
     width: 30px;
@@ -677,14 +672,17 @@ link.active {
     left: 0;
     z-index: 1;
   }
+  .link-head{
+    font-size: 16px;
+  }
 }
 @media (max-width:992px) {
     .py-29{
         padding-top: 10px;
         padding-bottom: 10px;
-    }
-    
+    } 
 }
+
 
 @media (min-width: 320px) {
   :root {
@@ -753,6 +751,9 @@ link.active {
     width: 40px;
     height: 40px;
   }
+  .nav-link{
+    margin-right: 20px !important;
+  }
 }
 
 @media (min-width: 576px) {
@@ -816,6 +817,9 @@ link.active {
   .tabs-para {
     font-size: 15px;
   }
+  .nav-link{
+    margin-right: 50px !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -844,6 +848,9 @@ link.active {
   .tabs-para {
     font-size: 16px;
   }
+  .nav-link{
+    margin-right: 60px !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -863,5 +870,8 @@ link.active {
   }
   .tabs-para {
     font-size: 20px;
+  }
+  .nav-link{
+    margin-right: 70px !important;
   }
 }

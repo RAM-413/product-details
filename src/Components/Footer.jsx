@@ -77,7 +77,7 @@ export const Footer = () => {
             </Col>
             <Col lg={8} className=" pt-sm-5 pt-4">
               <Row className=" pt-sm-5 pt-4">
-                <Col sm={3}  className="col-6 d-flex align-items-sm-center flex-column">
+                <Col sm={3}  className="col-6 d-flex  flex-column">
                   <h5 className="mb-4 link-head">CUSTOM LINKS</h5>
                   <ul className="px-0">
                     <li className="mb-3">
@@ -93,7 +93,7 @@ export const Footer = () => {
                   </ul>
                 </Col>
 
-                <Col sm={3}  className="col-6 d-flex align-items-sm-center flex-column">
+                <Col sm={3}  className="col-6 d-flex  flex-column">
                   <h5 className="mb-4 link-head">PRODUCTS</h5>
                   <ul className="px-0">
                     <li className="mb-3">
@@ -114,7 +114,7 @@ export const Footer = () => {
                   </ul>
                 </Col>
 
-                <Col sm={3}  className="col-6 pt-4 pt-sm-0 d-flex align-items-sm-center flex-column">
+                <Col sm={3}  className="col-6 pt-4 pt-sm-0 d-flex  flex-column">
                   <h5 className="mb-4 link-head">OUR COMPANY</h5>
                   <ul className="px-0">
                     <li className="mb-3">
@@ -130,7 +130,7 @@ export const Footer = () => {
                   </ul>
                 </Col>
 
-                <Col sm={3}  className="col-6 pt-4 pt-sm-0 d-flex align-items-sm-center flex-column">
+                <Col sm={3}  className="col-6 pt-4 pt-sm-0 d-flex  flex-column">
                   <h5 className="mb-4 link-head">YOUR ACCOUNT</h5>
                   <ul className="px-0">
                     <li className="mb-3">

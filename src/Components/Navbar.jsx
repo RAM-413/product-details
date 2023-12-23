@@ -23,7 +23,7 @@ export const Navbar = () => {
       </div> */}
       <header>
         <Container>
-          <div className="d-flex justify-content-between py-2">
+          <div className="d-lg-flex justify-content-between py-2 d-none ">
             <img src={imglogo} alt="logo" className="d-none d-lg-block" />
             <img src={imglogo1} alt="Offer" className="d-none d-lg-block" />
           </div>

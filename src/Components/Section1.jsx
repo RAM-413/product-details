@@ -19,7 +19,7 @@ export const Section1 = () => {
     <div className="py-5" id="HOME">
       <Container className="pb-4">
         <Row>
-          <Col lg={6} md={12} className="my-auto">
+          <Col lg={6} md={12} className="">
             <img className="w-100 " src={redshoe} alt="#" />
             <div className="d-flex align-items-center justify-content-center gap-1  pt-4">
               <Row>
@@ -85,24 +85,24 @@ export const Section1 = () => {
               <p className="shoe-specs m-0">
                 Qty:{" "}
               </p>
-              <div className="add-on-btns d-flex  gap-3 ms-3 size-container">
+              <div className="add-on-btns d-flex  gap-sm-3 ms-3 size-container align-items-center">
                 <p
-                  className="mx-sm-2 mx-25 sub curser-pointer"
+                  className="mx-sm-2 mx-25 sub curser-pointer mb-0"
                   onClick={handleDecrement}
                 >
                   -
                 </p>
-                <p className=" ">
+                <p className="mb-0 ">
                   {counter}
                 </p>
                 <p
-                  className=" mx-24 add curser-pointer"
+                  className=" mx-24 add curser-pointer mb-0"
                   onClick={handleIncrement}
                 >
                   +
                 </p>
               </div>
-              <button className="mx-3 cart-btn d-block">
+              <button className="mx-3 cart-btn d-block ">
                 Add to Cart
               </button>
             </div>
